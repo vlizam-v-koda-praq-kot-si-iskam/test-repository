@@ -17,5 +17,7 @@ public class LoginTests extends BaseTest {
         SecureAreaPage secureAreaPage = loginPage.clickLoginButton();
         assertTrue(secureAreaPage.getMessageAfterLogin().contains("You logged into a secure area!"),
                 "Wrong text message after login!");
+
+        System.out.println("hello world");
     }
 }
